@@ -1,8 +1,9 @@
 
 #main-heading{
-  font-family: "Montserrat-Black",sans-serif;
   font-size: 3rem;
   line-height: 1.5;
+  /* font-family: 'Indie Flower', cursive; */
+  font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -20,11 +21,9 @@ body{
   background-color: red;
 }
 
-
-
-
-
-
+h1{
+  font-size: 14rem;
+}
 
 
 
