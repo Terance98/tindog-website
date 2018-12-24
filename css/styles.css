@@ -1,7 +1,6 @@
-#main-heading{
+h1{
   font-size: 3rem;
   line-height: 1.5;
-  /* font-family: 'Indie Flower', cursive; */
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -9,6 +8,33 @@
   background-color: #ff4c68;
   /* font-size: 13rem; */
 }
+.container-fluid{
+  padding: 3% 15%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
