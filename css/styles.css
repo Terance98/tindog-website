@@ -12,19 +12,6 @@ body {
   text-align: center;
 }
 
-/* MEDIA QUERY */
-
-@media (max-width: 1028px) {
-  #title {
-    text-align: center;
-  }
-
-  .title-image {
-    position: static;
-    transform: rotate(0);
-  }
-}
-
 /* HEADINGS */
 
 .big-heading{
@@ -181,7 +168,18 @@ body {
   margin: 20px 10px;
 }
 
+/* MEDIA QUERY */
 
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
 
 /************FONTS*********
     font-family: 'Ubuntu', sans-serif;
