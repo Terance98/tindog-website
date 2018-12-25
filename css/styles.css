@@ -56,12 +56,12 @@ body {
   position: absolute;
   right: 25%;
 }
+
 #features {
   background-color: white;
   position: relative;
   z-index: 1;
 }
-
 
 /* Font Awesome Icons */
 .fas {
@@ -74,7 +74,7 @@ body {
   padding: 7% 15%;
 }
 
-#features h3 {
+h3 {
   font-size: 1.5rem;
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
@@ -132,7 +132,46 @@ body {
   padding: 7% 15%;
 }
 
+/* Media Query */
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
 
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/* cta */
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+    padding: 7% 15%;
+}
+
+#cta h3 {
+  color: white;
+  font-size: 3.5rem;
+line-height: 1.5;
+  font-weight: 900;
+}
+/* FOOTER */
+.fa-envelope {
+  font-size: 16px;
+  color: #212529;
+  ;
+}
+
+#footer{
+    text-align: center;
+    background-color: white;
+    padding : 7% 15%;
+}
+.social-links{
+  margin: 20px 10px;
+}
 /************FONTS*********
     font-family: 'Ubuntu', sans-serif;
 
